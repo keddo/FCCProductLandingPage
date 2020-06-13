@@ -15,6 +15,7 @@ html {
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 15px;
 }
 
 body {
@@ -148,4 +149,26 @@ body {
   text-transform: uppercase;
   border: 0;
   border-radius: 1px;
+}
+
+#footer {
+  padding: 1em;
+  text-align: right;
+  background-color: var(--color-title);
+}
+
+#footer ul li {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+#footer li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#footer p {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.8);
+  padding-top: 0.5em;
 }
