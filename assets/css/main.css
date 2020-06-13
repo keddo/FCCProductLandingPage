@@ -87,3 +87,18 @@ body {
   font-weight: 700;
   border-radius: 2px;
 }
+
+#features {
+  text-align: center;
+}
+
+.article {
+  margin: 3em 0;
+}
+
+.article h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0.3em 0;
+}
