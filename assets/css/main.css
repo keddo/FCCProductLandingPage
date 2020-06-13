@@ -2,7 +2,6 @@
   --color-white: #eee;
   --color-yellow: #f1c40f;
   --color-title: #ddd;
-  --color-green: #37af65;
 }
 
 *::before,
@@ -222,8 +221,31 @@ body {
     padding: 0;
   }
 
+  #nav-bar ul {
+    display: flex;
+  }
+
   #nav-bar ul li {
-    display: inline-block;
-    margin-right: 0.7em;
+    /* display: inline-block;
+    margin-right: 0.7em; */
+    flex: 1;
+  }
+}
+
+@media (min-width: 800px) {
+  #pricing-section {
+    display: flex;
+    padding: 0 0.5em;
+  }
+
+  .price-card:not(:last-of-type) {
+    margin-right: 18px;
+  }
+
+  #features,
+  #footer,
+  #pricing-section {
+    max-width: 1024px;
+    margin: 0 auto;
   }
 }
