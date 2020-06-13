@@ -172,3 +172,34 @@ body {
   color: rgba(0, 0, 0, 0.8);
   padding-top: 0.5em;
 }
+
+.side-icon {
+  display: none;
+}
+
+.yellow-color {
+  color: var(--color-yellow);
+}
+
+@media (min-width: 550px) {
+  .side-icon {
+    display: block;
+  }
+
+  #features {
+    text-align: left;
+  }
+
+  .article {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desc {
+    margin-left: 2em;
+    width: 75%;
+  }
+}
+
+/* @media (min-width: 600px){
+} */
