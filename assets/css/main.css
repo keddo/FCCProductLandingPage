@@ -195,7 +195,7 @@ body {
   }
 
   .desc {
-    margin-left: 2em;
+    margin-left: 2.5em;
     width: 75%;
   }
 }
@@ -226,13 +226,19 @@ body {
   }
 
   #nav-bar ul li {
-    /* display: inline-block;
-    margin-right: 0.7em; */
     flex: 1;
   }
 }
 
 @media (min-width: 800px) {
+  #main {
+    margin-top: 90px;
+  }
+
+  .desc {
+    margin-left: 4em;
+  }
+
   #pricing-section {
     display: flex;
     padding: 0 0.5em;
