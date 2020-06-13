@@ -12,7 +12,7 @@ Additional description about the project and its features.
 - CSS
 ## Live Demo
 
-[Open Live Demo](https://rawcdn.githack.com/keddo/FCCProductLandingPage/64c969f750ccc6b65192226248b5d913f0b10a3c/index.html)
+[Open Live Demo](https://rawcdn.githack.com/keddo/FCCProductLandingPage/2a611bd8782bcf83aa9d61906d288cc78948c3d1/index.html)
 
 
 ## Getting Started
