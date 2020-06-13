@@ -201,5 +201,14 @@ body {
   }
 }
 
-/* @media (min-width: 600px){
-} */
+@media (min-width: 600px) {
+  #header {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  #nav-bar {
+    padding: 0 4em;
+  }
+}
