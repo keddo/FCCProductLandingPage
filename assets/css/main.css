@@ -1,6 +1,6 @@
 :root {
   --color-white: #eee;
-  --color-darkblue: #1b1b32;
+  --color-yellow: #f1c40f;
   --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
   --color-green: #37af65;
 }
@@ -22,6 +22,7 @@ body {
   font-size: 1rem;
   line-height: 1.4;
   background-color: var(--color-white);
+  color: #000;
 }
 
 #header {
@@ -35,6 +36,14 @@ body {
   padding: 1em 0;
 }
 
+#main {
+  margin-top: 180px;
+}
+
+#nav-bar {
+  margin-top: 0.5em;
+}
+
 #header li {
   padding-bottom: 0.5em;
 }
@@ -42,4 +51,39 @@ body {
 #header li a {
   text-decoration: none;
   color: #000;
+}
+
+#main h1,
+.getting-started {
+  margin-top: 1em;
+  text-align: center;
+}
+
+#main h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#email {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5em 0.3em;
+}
+
+#submit {
+  display: inline-block;
+  margin: 1em 0;
+  padding: 0.5em 1.2em;
+  background-color: var(--color-yellow);
+  color: #000;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 2px;
 }
