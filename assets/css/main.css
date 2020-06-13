@@ -1,5 +1,5 @@
 :root {
-  --color-white: #f3f3f3;
+  --color-white: #eee;
   --color-darkblue: #1b1b32;
   --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
   --color-green: #37af65;
@@ -21,5 +21,25 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   line-height: 1.4;
-  color: var(--color-white);
+  background-color: var(--color-white);
+}
+
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: var(--color-white);
+  padding: 1em 0;
+}
+
+#header li {
+  padding-bottom: 0.5em;
+}
+
+#header li a {
+  text-decoration: none;
+  color: #000;
 }
