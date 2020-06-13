@@ -1,7 +1,7 @@
 :root {
   --color-white: #eee;
   --color-yellow: #f1c40f;
-  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-title: #ddd;
   --color-green: #37af65;
 }
 
@@ -42,6 +42,10 @@ body {
 
 #nav-bar {
   margin-top: 0.5em;
+}
+
+.price--card-body li {
+  padding: 0.5em;
 }
 
 #header li {
@@ -110,4 +114,38 @@ body {
 
 #video iframe {
   width: 100%;
+}
+
+#pricing-section {
+  text-align: center;
+}
+
+.price-card {
+  width: 300px;
+  margin: 2em auto;
+  border: 1px solid #000;
+}
+
+.price-card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--color-title);
+  padding: 1em 0;
+}
+
+.price--card-body h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 1em 0;
+}
+
+.price--card-body button {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 1em 0;
+  padding: 0.8em 1.5em;
+  background-color: var(--color-yellow);
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 1px;
 }
