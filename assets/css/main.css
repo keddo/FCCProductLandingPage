@@ -203,12 +203,27 @@ body {
 
 @media (min-width: 600px) {
   #header {
-    text-align: left;
     display: flex;
     align-items: center;
   }
 
   #nav-bar {
+    width: 400px;
     padding: 0 4em;
+  }
+}
+
+@media (min-width: 650px) {
+  #header {
+    justify-content: space-between;
+  }
+
+  #nav-bar {
+    padding: 0;
+  }
+
+  #nav-bar ul li {
+    display: inline-block;
+    margin-right: 0.7em;
   }
 }
